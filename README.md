@@ -36,12 +36,12 @@ Not wanting to clone, but want to practice the set up of the environment yoursel
     }
   ```
 
-  - Create a [gitignore file at gitignore.io](https://www.toptal.com/developers/gitignore)
-  - add Node and VisualStudioCode to this gitignore and bring into the project
+- Create a [gitignore file at gitignore.io](https://www.toptal.com/developers/gitignore)
+- add Node and VisualStudioCode to this gitignore and bring into the project
 
-  ## Interacting with this application
+## Interacting with this application
 
-  - `npm test` will run the tests
-  - `npm start` will run the application
+- `npm test` will run the tests
+- `npm start` will run the application
 
 Credits given to this source: [Using Jest with Parcel Bundler](https://ryankubik.com/blog/parcel-and-jest)
