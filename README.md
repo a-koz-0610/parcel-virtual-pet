@@ -37,7 +37,7 @@ Not wanting to clone, but want to practice the set up of the environment yoursel
   ```
 
 - Create a [gitignore file at gitignore.io](https://www.toptal.com/developers/gitignore)
-- add Node and VisualStudioCode to this gitignore and bring into the project
+  - add Node and VisualStudioCode to this gitignore and bring into the project
 
 ## Interacting with this application
 
