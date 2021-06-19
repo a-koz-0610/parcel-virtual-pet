@@ -45,3 +45,7 @@ Not wanting to clone, but want to practice the set up of the environment yoursel
 - `npm start` will run the application
 
 Credits given to this source: [Using Jest with Parcel Bundler](https://ryankubik.com/blog/parcel-and-jest)
+
+## No Class ?
+
+- [Please Stop Using Classes in JavaScript Article](https://everyday.codes/javascript/please-stop-using-classes-in-javascript/)
