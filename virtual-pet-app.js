@@ -7,10 +7,10 @@ const create = document.querySelector('.create'),
 renderPage();
 
 function renderPage() {
-  interactWithPet();
+  createPet();
 }
 
-function interactWithPet() {
+function createPet() {
   create.addEventListener('click', () => {
     let name = prompt('Enter a name');
     let description = prompt('Enter a description');
@@ -21,11 +21,14 @@ function interactWithPet() {
 
     const feedBtn = document.createElement('button');
     const waterBtn = document.createElement('button');
-
-    createActionButton(div, feedBtn, 'Feed');
-    createActionButton(div, waterBtn, 'Water');
-
-    careForPetEvent(feedBtn, petPara, myPet);
-    careForPetEvent(waterBtn, petPara, myPet);
+    interactWithPet(feedBtn, waterBtn, petPara, myPet);
   });
 }
+
+const interactWithPet = (feedBtn, waterBtn, petPara, myPet) => {
+  createActionButton(div, feedBtn, 'Feed');
+  createActionButton(div, waterBtn, 'Water');
+
+  careForPetEvent(feedBtn, petPara, myPet);
+  careForPetEvent(waterBtn, petPara, myPet);
+};
