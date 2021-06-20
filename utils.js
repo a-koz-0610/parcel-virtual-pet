@@ -1,4 +1,4 @@
-const petStats = (pet) => {
+export const petStats = (pet) => {
   return (
     'Name: ' +
     pet.name +
@@ -11,9 +11,14 @@ const petStats = (pet) => {
   );
 };
 
-export const feedPetEvent = (variable, elem, obj) => {
+export const careForPetEvent = (variable, elem, obj) => {
   variable.addEventListener('click', () => {
-    obj.feed();
+    if (variable.innerText === 'Feed') {
+      obj.feed();
+    } else {
+      obj.water();
+    }
+
     elem.innerText = petStats(obj);
   });
 };
