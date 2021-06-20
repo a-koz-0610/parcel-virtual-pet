@@ -1,4 +1,4 @@
-import VirtualPet from './virtual-pet';
+import VirtualPet from './VirtualPet';
 
 describe('VirtualPet', () => {
   test('does it return a name', () => {

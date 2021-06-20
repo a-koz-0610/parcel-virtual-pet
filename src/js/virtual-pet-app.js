@@ -1,6 +1,10 @@
-import VirtualPet from './virtual-pet.js';
-import Form from './Form.js';
-import { careForPetEvent, createActionButton, petStats } from './utils.js';
+import VirtualPet from './models/VirtualPet.js';
+import Form from './components/Form.js';
+import {
+  careForPetEvent,
+  createActionButton,
+  petStats,
+} from './utils/utils.js';
 
 const createBtn = document.querySelector('.createBtn'),
   container = document.querySelector('.container'),
